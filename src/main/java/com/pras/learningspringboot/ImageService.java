@@ -21,7 +21,7 @@ import java.nio.file.Paths;
 @Service
 public class ImageService {
 
-    private static String UPLOAD_ROOT = "upload-dir";
+    private static String UPLOAD_ROOT = "C:\\Project";
 
     private final ImageRepository repository;
     private final ResourceLoader resourceLoader;
